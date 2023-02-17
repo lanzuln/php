@@ -12,7 +12,7 @@ function fibonacci($n) {
         return fibonacci($n - 1) + fibonacci($n - 2);
     }
 }
-$n = 10;
+$n = 5;
 for ($i = 0; $i < $n; $i++) {
     echo fibonacci($i) . " ";
 }
@@ -21,7 +21,7 @@ echo PHP_EOL;
 // -----------------This is for lopo of fibonacci----------
 // time: 1:10:30
 
-$n = 10;
+$n = 5;
 $first = 0;
 $second = 1;
 for ($i = 0; $i < $n; $i++) {
