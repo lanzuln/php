@@ -7,13 +7,13 @@ $mobile = [
 ];
 
 // echo count($mobile);
-// echo $mobile['samsung'];
+//
 
 // ============== loop for associative array
-// foreach ($mobile as $key => $value) {
-//     echo $key . "=" . $value;
-//     echo PHP_EOL;
-// }
+foreach ($mobile as $brand => $model) {
+    echo $brand . "=" . $model;
+    echo PHP_EOL;
+}
 
 /*
 // =============== show keys
@@ -42,8 +42,8 @@ echo PHP_EOL;
 }*/
 
 //====================যদি চাই array এর মাঝে আর value অ্যাড করতে , তাহলে
-$mobile['samsung'] = $mobile['samsung'] . ", A30";
-// ________আর সহজে লিখা যায়
-$mobile['samsung'] .= ", A20";
+// $mobile['samsung'] = $mobile['samsung'] . ", A30";
+// // ________আর সহজে লিখা যায়
+// $mobile['samsung'] .= ", A20";
 
-print_r($mobile);
+// print_r($mobile);
